@@ -34,7 +34,7 @@ menuLinks.forEach(link => {
       }
 
       // Закрываем меню после перехода
-      menuList.classList.remove('user-actions__item');
+      menuList.classList.remove('menu__list--open');
       menuShadow.classList.remove('menu--open');
 
 
@@ -562,6 +562,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+
 
 
 
