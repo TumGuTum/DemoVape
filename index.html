@@ -1,0 +1,672 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vape</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/media.css">
+  <link rel="stylesheet" href="./style/mobile.css">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="menu--close"></div>
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="#" class="logo">
+        <img src="./img/MainLogo.png" alt="MEGALODON">
+      </a>
+      <nav class="menu">
+        <button class="menu__btn">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="menu__list">
+          <li class="menu__close">
+            <button class="menu__close-btn">
+              <img src="./img/icons8-крестик-78.png" alt="крестик">
+            </button>
+          </li>
+          <li class="menu__item"><a href="#main" class="menu__link menu__link___main">Главная</a></li>
+          <li class="menu__item"><a href="#news" class="menu__link">Новости</a></li>
+          <li class="menu__item"><a href="#goods" class="menu__link">Товары</a></li>
+          <li class="menu__item"><a href="#delvery" class="menu__link">Доставка</a></li>
+          <li class="menu__item"><a href="#contacs" class="menu__link">Контакты</a></li>
+          <li class="mobile-nav">
+            <ul class="mobile-actions">
+              <li class="user-actions__item">
+                <a href="#" data-cart-btn title="Открыть корзину">
+                  <img src="./img/icons8-корзина-96.png"  alt="корзина">
+                  <div id="cart-count" class="cart-count" aria-hidden="true" style="display:none">0</div>
+                </a>
+              </li>
+              <li class="user-actions__item user-actions__item-tg"><a href="https://web.telegram.org/a/#7815030119" class="user-actons__lnk"><img src="./img/icons8-телеграм-100.png" alt="корзина"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <ul class="user-actions">
+        <li class="user-actions__item">      
+          <a href="#" data-cart-btn title="Открыть корзину">
+          <img src="./img/icons8-корзина-96.png" alt="корзина">
+          <div  class="cart-count" aria-hidden="true" style="display:none">0</div>
+        </a></li>
+       
+        <li class="user-actions__item user-actions__item-tg"><a href="https://web.telegram.org/a/#7815030119" class="user-actons__lnk"><img src="./img/icons8-телеграм-100.png" alt="корзина"></a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main class="main" id="main">
+  <section class="top">
+    <div class="container">
+      <div class="top-inner">
+        <table>
+          <thead>
+            <tr>
+              <th><h1 class="top__title">MEGALODON </h1></th>
+              <th>
+                <p class="top__text">
+                  <img src="./img/icons8-консультация-96.png" alt="icon__main">Консультации онлайн<br>
+                  <img src="./img/icons8-скидка-96.png" alt="icon__main">Приятные цены<br>
+                  <img src="./img/icons8-качество-64.png" alt="icon__main">Гарантия качества<br>
+                  <img src="./img/icons8-доставка-100.png" alt="icon__main">Быстрая доставка
+                </p>
+              </th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+    <div class="blue-spot"></div>
+    <div class="blue-line">
+
+    </div>
+    <img src="./img/ChatGPT Image 6 окт. 2025 г., 17_59_05.png" alt="Товар" class="top-img">
+    <img src="./img/ChatGPT Image 6 окт. 2025 г., 18_15_41.png" alt="Товар" class="top-img2">
+    <img src="./img/ChatGPT Image 6 окт. 2025 г., 18_15_41.png" alt="Товар" class="top-img3">
+    <img src="./img/ChatGPT Image 6 окт. 2025 г., 18_15_41.png" alt="Товар" class="top-img4">
+    <img src="./img/pngwing.com (8).png" alt="Товар" class="top-img5">
+    <img src="./img/pngwing.com (9).png" alt="Товар" class="top-img6">
+    <img src="./img/pngwing.com (10).png" alt="Товар" class="top-img7">
+    <img src="./img/pngwing.com (11).png" alt="Товар" class="top-img8">
+    <img src="./img/pngwing.com (10).png" alt="Товар" class="top-img9">
+  </section>
+  <section class="warning-section">
+    <section class="warning-section">
+      <div class="scroll-container">
+        <div class="scroll-track">
+          <span>18+ курение убивает  18+  курение убивает  18+  курение убивает  18+  курение убивает  18+  курение убивает  курение убивает  курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+</span>
+          <span>18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+</span>
+          <span>18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+ курение убивает 18+</span>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="news-section" id="news">
+    <h2 class="news-section__title">Новости</h2>
+  
+    <div class="news-section__gallery">
+      <div class="news-section__slides">
+        <img src="./img/Лагерь Canvas Баннер.png" alt="news1">
+
+        <img src="./img/Лагерь Canvas Баннер.png" alt="news3">
+
+        <img src="./img/Лагерь Canvas Баннер.png" alt="news3">
+      </div>
+      <div class="news-section__dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="assortment" id="goods">
+
+<div class="container">
+  <div class="assortment__titles">
+    <span class="assortment__number">1</span>
+    <div class="assortment__text">
+      <h2 class="assortment__title">Товары</h2>
+      <h2 class="assortment__title--mini">Жидкости</h2>
+      
+    </div>
+  </div>
+  <h3 class="assortment__title--mini2"><i><span class="my-colored-text">*</span>Попробуй все вкусы!</i></h3>
+  <div class="accordion">
+    <div class="accordion-item">
+        <input type="checkbox" id="accordion1">
+        <label for="accordion1" class="accordion-item-title"><span>+</span>Elfliq - Рекомендации по выбору</label>
+        <div class="accordion-item-desc">
+          Elfliq известна на рынке вейп-товаров как жидкость премиум-качества. Только посмотрите на ее характеристики:
+Равное соотношение VG/PG в жиже соответствует параметрам многократных под-систем, обеспечивая комфортное парение, насыщенный вкус и правильную эксплуатацию электронки.
+Флакон, в котором можно купить Elfliq, имеет оптимальный объем и обеспечивает удобную заправку картриджа.<div>⠀</div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <ul class="assortment__list">
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5202125996382359079.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - Strawberry Ice</p>
+            <p class="card__description">Вкус: Клубничный лед<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5202125996382359080.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - Kivi Passion Fruit Guava</p>
+            <p class="card__description">Вкус: Киви Маракуйя Гуава<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5202125996382359081.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - PineApple Ice</p>
+            <p class="card__description">Вкус: Ананасовый лед<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5202125996382359082.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - Jasmine Rasberry</p>
+            <p class="card__description">Вкус: Жасмин Малина<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5202125996382359083.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - Apple Peach</p>
+            <p class="card__description">Вкус: Яблоко Персик<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5206563354729122152.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - Grape Cherry</p>
+            <p class="card__description">Вкус: Виноград Вишня<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5206563354729122153.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - Chery Lemon Peach</p>
+            <p class="card__description">Вкус: Вишня Лимон Персик<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5206563354729122154.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - Cherry Cola</p>
+            <p class="card__description">Вкус: Вишня Кола<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5206563354729122155.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - PineApple Colada</p>
+            <p class="card__description">Вкус: Ананасовая Пина-колада<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5206563354729122156.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elfliq - Double Apple</p>
+            <p class="card__description">Вкус: Двойное Яблоко<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+
+    
+  </ul>
+  
+  <div class="accordion">
+    <div class="accordion-item">
+        <input type="checkbox" id="accordion4">
+        <label for="accordion4" class="accordion-item-title"><span>+</span>Elix - Рекомендации по выбору</label>
+        <div class="accordion-item-desc">
+          Жидкость Elix представляет собой серию на основе солевого никотина с балансом VG/PG примерно 50/50, что делает её оптимальной для под‑систем и маломощных устройств. Она выпускается в объёмах 10 и 30 мл с крепостью никотина 30–50 мг/мл. Линейка включает фруктовые и ягодные вкусы, такие как «Личи», «Нектарин» и «Смородина с мятой». Жидкость предназначена для MTL-затяжки и производится в Украине.<div>⠀</div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <ul class="assortment__list">
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5202125996382358791.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elix - Кавун & М'ята</p>
+            <p class="card__description">Вкус: Арбуз & Мята<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5202125996382359075.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elix - Банан</p>
+            <p class="card__description">Вкусы: Свежая мята<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img class="main_mg" src="./img/5202125996382359076.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elix - ЛIЧI</p>
+            <p class="card__description">Вкус: Личи<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    <li class="assortment__item">
+      <div class="card">
+
+        <section  class="card">
+          <img src="./img/5202125996382359077.jpg" alt="">
+          <div class="card__content">
+            <p class="card__title">Elix - Виноград</p>
+            <p class="card__description">Вкус: Виноград<br>
+
+Объем: 30 мл<br>
+PG/VG: 50/50<br>Шкала крепости: 5<br>
+
+            <!-- Важно: именно этот элемент читается скриптом -->
+            <p class="card__price">180 ₽</p>
+
+            <div class="card__buttons">
+              <button class="buy-btn"><span>Кинуть в корзину</span></button>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </li>
+    
+    </li>
+    
+  </ul>
+</div>
+
+  
+
+</div>
+
+  </section>
+  <section class="assortment__vape">
+    <div class="container">
+
+      <div class="assortment__titles">
+        <span class="assortment__number">2</span>
+        <div class="assortment__text">
+          <h2 class="assortment__title--mini">Под -</h2>
+          <h2 class="assortment__title--mini">системы</h2>
+          
+        </div>
+      </div>
+      <h3 class="assortment__title--mini2"><i><span class="my-colored-text">*</span>Раскроют весь потенциал жидкости</i></h3>
+      <div class="accordion">
+        <div class="accordion-item">
+            <input type="checkbox" id="accordion2">
+            <label for="accordion2" class="accordion-item-title"><span>+</span>Особенности под-систем</label>
+            <div class="accordion-item-desc">
+              Под-система — это тип компактного электронного устройства для вейпинга, состоящий из аккумуляторного блока и картриджа (сменного или перезаправляемого). Эти устройства часто используются как альтернатива обычным сигаретам и популярны благодаря простоте использования, компактности и возможности получения быстрой никотиновой насыщаемости с помощью жидкости на солевом никотине. <div>⠀</div>
+          </div>
+        </div>
+      </div>
+    
+      <ul class="assortment__list">
+*Скоро
+    
+        </li>
+      </ul>
+      
+    </div>
+      </section>
+      <section class="assortment__odnoraz">
+        <div class="container">
+    
+          <div class="container">
+            <div class="assortment__titles">
+              <span class="assortment__number">3</span>
+              <div class="assortment__text">
+                <h2 class="assortment__title">Одноразовые</h2>
+                <h2 class="assortment__title--mini">устройства</h2>
+                
+              </div>
+            </div>
+            <h3 class="assortment__title--mini2"><i><span class="my-colored-text">*</span>Если что, это имба</i></h3>
+            <div class="accordion">
+              <div class="accordion-item">
+                  <input type="checkbox" id="accordion3">
+                  <label for="accordion3" class="accordion-item-title"><span>+</span>Почему это имба?</label>
+                  <div class="accordion-item-desc">
+                    Одноразовые электронные сигареты являются удобной и простой альтернативой под‑системам по нескольким причинам. Во‑первых, они готовы к использованию сразу после покупки: не нужно заправлять жидкость, менять испаритель или разбирать устройство — просто открываешь и используешь. Кроме того, одноразки не требуют ухода и чистки, что исключает риск протечек или поломки испарителя, что иногда случается с под-системами.<div>⠀</div>
+                </div>
+              </div>
+            </div>
+          <ul class="assortment__list">
+            *Скоро
+        
+            </li>
+          </ul>
+        </div>
+
+        <section class="delivery-section" aria-labelledby="delivery-title" id="delvery">
+          <div class="container">
+            <h2 id="delivery-title" class="delivery-title">Как работает доставка?</h2>
+        
+            <div class="delivery-grid">
+              <!-- Контейнер карты -->
+              <div id="map" style="height:400px; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,0.1);"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1383771.4584056388!2d27.921907413556458!3d47.35967194028713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c951a8b54bb0cf%3A0x77b4bd5d6cd0ce46!2z0JDQtNC80LjQvdC40YHRgtGA0LDRgtC40LLQvdC-LdGC0LXRgNGA0LjRgtC-0YDQuNCw0LvRjNC90YvQtSDQtdC00LjQvdC40YbRiyDQu9C10LLQvtCx0LXRgNC10LbRjNGPINCU0L3QtdGB0YLRgNCwLCDQnNC-0LvQtNC-0LLQsA!5e0!3m2!1sru!2s!4v1759912139316!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        
+              <div class="delivery-info">
+                <p class="lead">Доставляем заказ по всему Приднестровью во все направления экспресс‑почтой.</p>
+                <ul class="delivery-list">
+                  <li><strong><span class="highlight">Скорость:</span></strong> экспресс‑доставка по всей территории до трёх дней.</li>
+                  <li><strong><span class="highlight">Упаковка:</span></strong> надежная профессиональная упаковка — безопасно для жидкостей и pod‑систем.</li>
+                  <li><strong><span class="highlight">Бесплатная доставка:</span></strong> при заказе от <span class="highlight">200 руб.</span> доставка бесплатна.</li>
+                </ul>
+                <div class="delivery-cta">
+                  <a class="btn" href="#goods">Оформить заказ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <footer class="footer" id="contacs">
+          <div class="container footer__container">
+            <div class="footer__logo-block">
+              <img src="./img/MainLogo.png" alt="MEGALODON" class="footer__logo">
+              <h3 class="footer__brand">MEGALODON</h3>
+              <p class="footer__slogan">Погружайся во вкус</p>
+            </div>
+        
+            <nav class="footer__nav">
+              <ul class="footer__links">
+                <li><a href="#main" class="footer__link">Главная</a></li>
+                <li><a href="#news" class="footer__link">Новости</a></li>
+                <li><a href="#goods" class="footer__link">Товары</a></li>
+                <li><a href="#delvery" class="footer__link">Доставка</a></li>
+                <li><a href="#contacs" class="footer__link">Контакты</a></li>
+              </ul>
+            </nav>
+        
+            <div class="footer__social">
+              <a href="https://web.telegram.org/a/#7815030119" class="footer__icon" target="_blank">
+                <img src="./img/icons8-телеграм-100.png" alt="Telegram">
+              </a>
+             
+              <a href="#" data-cart-btn title="Открыть корзину" class="footer__icon">
+                <img src="./img/icons8-корзина-96.png" alt="Cart">
+              </a>
+            </div>
+          </div>
+        
+          <div class="footer__bottom">
+            <p>© 2025 MEGALODON.</p>
+          </div>
+        </footer>
+</main>
+<form class="sms-form">
+<div id="cart-popup" class="cart-popup" aria-hidden="true">
+  
+  
+  <div class="cart-popup__content" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+    <h2 id="cart-title">Корзина</h2>
+
+
+    
+    <input type="text" name="name" required placeholder="Ваше имя">
+    <input type="tel" name="phone" required placeholder="Ник в тг (начиная с @)">
+    <input type="text" name="social-media" required placeholder="Комментарий к заказу">
+    <p class="zayavka">*Оставьте заявку и менеджер свяжется с вами в ближайее время</p>
+    <button id="cart-close" class="cart-popup__close" aria-label="Закрыть" type="button">&times;</button>
+   
+
+    <ul id="cart-items"></ul>
+
+    <div class="cart-summary">
+      <div>Итого:</div>
+      <div id="cart-total" name = "OrderSum">0 ₽</div>
+    </div>
+    <input type="hidden" name="OrderSum" id="OrderSum">
+    <input type="hidden" name="OrderItems" id="OrderItems">
+
+    <button id="order-btn" class="order-btn" type="submit">Заказать</button>
+  </div>
+>
+
+    </form>
+  </div>
+ 
+</div>
+<div class="age-popup" id="agePopup">
+  <div class="age-popup__content">
+    <h2>Вам уже исполнилось 18 лет?</h2>
+    <p>Сайт содержит информацию о товарах для взрослых (электронные сигареты).</p>
+    <div class="age-popup__buttons">
+      <button id="ageYes">Да, мне 18+</button>
+      <button id="ageNo">Нет</button>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/sms.js"></script>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+</body>
+</html>
